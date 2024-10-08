@@ -1,0 +1,36 @@
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: white;
+  }
+  .avatar.avatar-sm {
+    width: 1.75rem;
+    height: 1.75rem;
+    line-height: 1.75rem;
+    font-size: 0.65rem;
+    border-radius: 21px !important;
+}
+.show{
+    position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate3d(0px, 61.6px, 0px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white !important;
+}
+.dropdown-item {
+    color: rgb(255, 255, 255) !important;
+    white-space: unset;
+    padding: 0.5rem 0.9375rem;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    &:hover{
+        color: var(--primary-color) !important;
+    }
+}    .app-header {
+    padding-inline-start: 1rem !important;
+}
+.main-logo{
+    width: 5rem !important;
+    margin-right: 1rem;
+}

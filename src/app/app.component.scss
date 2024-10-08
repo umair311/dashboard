@@ -1,0 +1,17 @@
+.content{
+    padding-top: 72px;
+    width: 73vw;
+    margin: 0 auto;
+}
+.fw-medium {
+    font-weight: 500 !important;
+    color: white;
+}
+.fs-13 {
+    font-size: 0.8125rem;
+    color: white;
+}
+.table.table-striped > tbody > tr:nth-of-type(odd) > * {
+    color: white;
+    --bs-table-bg-type: rgba(255, 255, 255, 0.04);
+}
